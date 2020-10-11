@@ -29,4 +29,35 @@ function oldColor () {
       document.getElementById("button1").addEventListener("click", function() {
         buttonMessage1();
         }, false);
+
+/*message when button 2 is clicked*/
+function buttonMessage2() {
+    var text = document.getElementById("button2message");
+    if (text.style.display == "none"){
+      text.style.display = "block";
+    }
+    else {
+      text.style.display = "none";
+    }
+  }
+
+  document.getElementById("button2").addEventListener("click", function() {
+    buttonMessage2();
+    }, false);
+
+/*message when button 3 is clicked*/
+function buttonMessage3() {
+    var text = document.getElementById("button3message");
+    if (text.style.display == "none"){
+      text.style.display = "block";
+    }
+    else {
+      text.style.display = "none";
+    }
+  }
+
+  document.getElementById("button3").addEventListener("click", function() {
+    buttonMessage3();
+    }, false);
+
   

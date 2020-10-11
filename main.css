@@ -56,6 +56,6 @@ button {
     background-color: #A5FF00;
 }
 
-#button1message {
+#button1message, #button2message, #button3message {
     display: none;
 }
