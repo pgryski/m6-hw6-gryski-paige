@@ -1,0 +1,53 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
+    display:block;
+}
+
+h1, h2, p {
+    font-family: 'Oswald', sans-serif;
+}
+
+header {
+    background-color: #6004C2;
+    color: white;
+    font-size: 1.7rem;
+    line-height: 205%;
+    padding: 3%;
+}
+
+body {
+    text-align: center;
+}
+
+h2 {
+    color: #6004C2;
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 3%;
+}
+
+button {
+    color: #6004C2;
+    border: 7px solid #6004C2;
+    border-radius: 5%;
+    text-align: center;
+    padding: 3% 8% 3% 8%;
+    margin: 2%;
+    font-size: 6rem;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button1 {
+    background-color: #FCFF00;
+}
+.button2 {
+    background-color: #54FFC8;
+}
+.button3 {
+    background-color: #A5FF00;
+}
