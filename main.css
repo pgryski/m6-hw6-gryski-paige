@@ -42,12 +42,12 @@ button {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
-.button1 {
+#button1 {
     background-color: #FCFF00;
 }
-.button2 {
+#button2 {
     background-color: #54FFC8;
 }
-.button3 {
+#button3 {
     background-color: #A5FF00;
 }
