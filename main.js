@@ -60,4 +60,25 @@ function buttonMessage3() {
     buttonMessage3();
     }, false);
 
-  
+/*start over button appears when any button is clicked*/
+function startOverButton() {
+    var text = document.getElementById("startover");
+    if (text.style.display == "none"){
+      text.style.display = "inline";
+    }
+    else {
+      text.style.display = "none";
+    }
+  }
+
+  document.getElementById("button1").addEventListener("click", function() {
+    startOverButton();
+    }, false);
+
+ document.getElementById("button2").addEventListener("click", function() {
+    startOverButton();
+     }, false);
+
+ document.getElementById("button3").addEventListener("click", function() {
+    startOverButton();
+    }, false);

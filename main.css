@@ -59,3 +59,12 @@ button {
 #button1message, #button2message, #button3message {
     display: none;
 }
+
+#startover, a:visited  {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    padding: 1%;
+    border: 3px solid #000000;
+    display: none;
+}
