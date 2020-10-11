@@ -12,6 +12,10 @@ h1, h2, p {
     font-family: 'Oswald', sans-serif;
 }
 
+p {
+    color: #6004C2;
+}
+
 header {
     background-color: #6004C2;
     color: white;
@@ -50,4 +54,8 @@ button {
 }
 #button3 {
     background-color: #A5FF00;
+}
+
+#button1message {
+    display: none;
 }
